@@ -4,7 +4,7 @@ if (playGame) {
   //play
   while (playGame) {
     const playerChoice = prompt("please enter rock, paper or scissors");
-    if (playerChoice || playerChioce === "") {
+    if (playerChoice || playerChoice === "") {
       const playerOne = playerChoice.trim().toLowerCase();
 
       if (
@@ -12,7 +12,7 @@ if (playGame) {
         playerOne === "paper" ||
         playerOne === "scissors"
       ) {
-        const computerChioce = Math.floor(Math.random() * 3);
+        const computerChoice = Math.floor(Math.random() * 3);
         const rpsArray = ["rock", "paper", "scissors"];
         const computer = rpsArray[computerChoice];
 
