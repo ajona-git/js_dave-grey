@@ -145,3 +145,8 @@ if (name) {
 } else {
   console.log("You didn't enter your name.");
 }
+let myNumber = 0;
+while (myNumber < 50) {
+  console.log(myNumber);
+  myNumber++;
+}
